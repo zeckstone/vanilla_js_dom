@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vanilla JS DOM</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <script src="dom.js"></script>
+  <script src="employeeList.js"></script>
+  <div class="container-fluid">
+    <div class="row">
+      <!--Left column with buttons: View, Add, Verify, Update and Delete-->
+      <div class="col-sm-3">
+        
+        <div class="tabs">
+          
+          <br/><br/><br/>
+          <!--conact Icon-->
+          <i style="font-size:200%" class="fa">&#xf2ba;</i>
+          <div class="tabs2">
+            <br/>
+           <button class="view">VIEW</button>
+            <br><br/>
+            <button class="add">ADD</button>
+            <br><br/>
+            <button class="verify">VERIFY</button>
+            <br><br/>
+            <button class="update">UPDATE</button>
+            <br><br/>
+            <button class="delete">DELETE</button>
+            <br/> <br/><br><br/> <br/><br><br/> <br/><br><br/> <br/><br><br/> <br/><br>
+          </div>
+        </div>
+        </div>
+        <!--Right column with input bars and content display-->
+        <div class="col-sm-9">
+            <form class="form">
+                <input class="name" type="text" name="firstname" placeholder="Enter name">               
+                <input class="officenum" type="number" name="office number" placeholder="office number">
+                <input class="phone" type="number" name="phone number" placeholder="Tel... 000-000-0000">
+                <button class="searchbtn"><i id="srchicon" class="fa fa-search"></i></button>
+              </form>
+         <br/>
+        </div>
+
+      </div>
+  </div>
+  <script src="apps.js"> </script>
+</body>
+
+</html>
